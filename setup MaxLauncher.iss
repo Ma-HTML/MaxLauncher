@@ -9,8 +9,8 @@ Compression=lzma
 SolidCompression=yes
 
 [Files]
-Source: "C:\Users\slemaire\Downloads\MaxLuncher\main.py"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\slemaire\Downloads\MaxLuncher"; DestDir: "{app}\resources"; Flags: recursesubdirs createallsubdirs
+Source: "C:\Users\[user]\Downloads\MaxLuncher\main.py"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\[user]\Downloads\MaxLuncher"; DestDir: "{app}\resources"; Flags: recursesubdirs createallsubdirs
 
 [Icons]
 Name: "{group}\MaxLuncher"; Filename: "{app}\MaxLuncher.exe"
